@@ -1,0 +1,37 @@
+{
+  "id": "vaesen-it",
+  "title": "Vaesen - Traduzione Italiana",
+  "description": "Traduzione italiana del sistema Vaesen per Foundry VTT: schede, tiri, condizioni, impostazioni e generatore di personaggi, con la terminologia del Manuale Base italiano. Attiva la lingua Italiano nelle impostazioni di Foundry.",
+  "authors": [
+    {
+      "name": "Arcadio21"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.363"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "vaesen",
+        "type": "system",
+        "compatibility": {
+          "minimum": "7.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/vaesen-it.js"
+  ],
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json",
+      "system": "vaesen"
+    }
+  ]
+}
