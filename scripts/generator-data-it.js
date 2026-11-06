@@ -1,6 +1,3 @@
-// Vaesen - Traduzione italiana
-// Dati del generatore di personaggi (Tabelle delle Origini, Manuale Base pp. 214-229)
-// Generato automaticamente da make_gen.py: struttura identica a systems/vaesen/script/util/generator_data.js
 export const GENERATOR_DATA_IT = {
  "startingResources": {
   "Povero": 1,
